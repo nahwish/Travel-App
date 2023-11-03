@@ -22,6 +22,7 @@ export const Hero = () => {
           ver la belleza incorruptible de la naturaleza. Podemos ayudarte en una
           aventura alrededor del mundo en una sola aplicación.
         </p>
+
         <div className="my-11 flex flex-wrap gap-5">
           <div className="flex items-center gap-2">
             {Array(5)
@@ -45,7 +46,29 @@ export const Hero = () => {
         </div>
         <div className="flex flex-col w-full gap-3 sm:flex-row">
           <Button type="button" title="Descargá la App" variant="btn_green" />
-          <Button type="button" title="Sobre nosotros" variant="btn_white_text" icon="/play.svg"/>
+          <Button
+            type="button"
+            title="Sobre nosotros"
+            variant="btn_white_text"
+            icon="/play.svg"
+          />
+        </div>
+      </div>
+      <div className="relative flex flex-1 items-start border-2 border-blue-500">
+        <div className="relative z-20 w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
+          <div className="flex flex-col">
+            <div className="flexBetween">
+              <p className="regular-16 text-gray-20">Ubicación</p>
+              <Image src="/close.svg" alt="close" width={24} height={24} />
+            </div>
+            <p className="bold-20 text-white">Aguas Calientes</p>
+          </div>
+          <div className="flexBetween">
+            <div className="flex flex-col">
+              <p className="regular-16 text-gray-20">Distancia</p>
+              <p className="bold-20 text-white">248.24 km</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
