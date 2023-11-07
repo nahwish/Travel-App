@@ -1,5 +1,5 @@
 import React from "react";
-import {Button} from "./Button";
+import { Button } from "./Button/Button";
 import Image from "next/image";
 
 export const GetApp = () => {

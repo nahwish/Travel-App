@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import React from 'react'
-import { Button } from './Button';
+import Image from "next/image";
+import React from "react";
+import { Button } from "./Button/Button";
 
 export const Hero = () => {
   return (
@@ -73,4 +73,4 @@ export const Hero = () => {
       </div>
     </section>
   );
-}
+};
