@@ -17,3 +17,9 @@ export type ButtonProps = {
   variant: string;
   full?: boolean;
 };
+
+export type FeatureItemProps = {
+  title: string;
+  icon: string;
+  description: string;
+};
