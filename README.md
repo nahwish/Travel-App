@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📝 TravelApp
 
-## Getting Started
+## Descripción
+Bienvenido a **Travel**, la aplicación que te permite tomar notas y organizarlas. Puedes utilizarla para crear notas sobre compras, gestionar turnos médicos o simplemente tomar notas personales. Con **TodoApp**, puedes ver, editar, eliminar y buscar notas por categoría.
 
-First, run the development server:
+<hr/>
+En Signup tenés la posibilidad de crear una cuenta, puede ser ficticia, lo importantes es que la recuerdes
+ya que se almacenará en la base de datos y guardará tus notas personales, pudiendo administrar varios usuarios.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<img src="./todos/Client/public/crear.png" alt="Home">
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Para loguearte en la app se utiliza un formulario con email y contraseña, si no estas registrado te red
+ireccionara al signup para que puedas crear una cuenta.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<hr/>
+<img src="./todos/Client/public/ingresar.png" alt="Home">
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<hr/>
+Una vez creada tu cuenta podrás acceder a la app y verás el listado de tareas pendientes:
+Aquí podrás agregar o eliminar tareas, actualizarlas (si las quieres) y marcar como
+completadas.
 
-## Learn More
+<img src="./todos/Client/public/image1.png" alt="Home">
 
-To learn more about Next.js, take a look at the following resources:
+<img src="./todos/Client/public/lista.png" alt="Home">
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<hr/>
+Podrás agregar tareas y asignarle una categoria. lugo podrás filtrar por la cartegoria deseada.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<img src="./todos/Client/public/agregar.png" alt="Home">
 
-## Deploy on Vercel
+<hr/>
+También podras borrar los registros, o marcar como completadas.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img src="./todos/Client/public/editar.png" alt="Home">
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<hr/>
+
+
+
+
+## Requisitos Previos
+Antes de comenzar, asegúrate de tener instalado lo siguiente:
+- [Node.js](https://nodejs.org/): Para ejecutar la aplicación.
+- Navegador web moderno.
+
+## Instalación
+Sigue estos pasos para instalar y ejecutar **Travel**:
+
+1. Clona el repositorio:
+   ```bash
+   git clone git@github.com:nahwish/travel-app.git
+2. Navega al directorio del proyecto:
+   ```bash
+   cd todo
+3. Instala las dependencias generales:
+   ```bash
+   npm install
+4. Navega hacia la carpeta Client:
+   ```bash
+   cd Client
+- Instala las dependencias: 
+   ```bash
+   npm install
+5. Instala las dependencias del backend:
+   
+   Navega hacia la carpeta Server:
+   ```bash
+   cd Server
+- Instala las dependencias: 
+   ```bash 
+   npm install
+6. Levanta ambos servidores (frontend y backend):
+- Dentro de la carpeta Client:
+   ```bash
+   npm start
+
+- Dentro de la carpeta Server:
+
+   ```bash
+   npm start
+
+
+
+
+
+
+Contacto
+Si tienes preguntas o comentarios, no dudes en ponerte en contacto con nosotros en [nadaro@outlook.com].# Todo-App
