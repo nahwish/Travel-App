@@ -21,7 +21,6 @@ export const Hero = () => {
           ver la belleza incorruptible de la naturaleza. Podemos ayudarte en una
           aventura alrededor del mundo en una sola aplicación.
         </p>
-
         <div className="my-11 flex flex-wrap gap-5">
           <div className="flex items-center gap-2">
             {Array(5)
