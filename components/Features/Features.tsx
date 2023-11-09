@@ -5,7 +5,7 @@ import React from "react";
 
 export const Features = () => {
   return (
-    <section className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
+    <section className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24 ">
       <div className="max-container padding-container relative w-full flex justify-end">
         <div className="flex flex-1 lg:min-h-[900px]">
           <Image
@@ -28,7 +28,7 @@ export const Features = () => {
             />
             <h2 className="bold-40 lg:bold-64">Nuestras características</h2>
           </div>
-          <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20">
+          <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20 ">
             {FEATURES.map((feature) => (
               <FeatureItem
                 key={feature.title}

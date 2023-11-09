@@ -81,7 +81,19 @@ Sigue estos pasos para instalar y ejecutar **Travel**:
    npm start
 
 
+RootLayout 
+ navbar {children} footer
 
+ home 
+   hero
+      button
+   camp
+      CampSite
+   guide
+   features
+      featureItem
+   getApp
+      button
 
 
 
