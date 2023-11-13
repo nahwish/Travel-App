@@ -10,7 +10,6 @@
 <img src="./public/Travel-App.png" alt="Home">
 
 <hr/>
-<img src="./todos/Client/public/ingresar.png" alt="Home">
 
 
 ## Requisitos Previos
